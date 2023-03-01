@@ -1,9 +1,10 @@
 h1 {
     font-size: initial;
     color: coral;
-    transition: transform ease-in-out 1s;
 }
 
-h1:hover{
-    transform: scale(20px);
+.btn {
+    font-size: 4em;
+    font-weight: bold;
+    padding: 0.5em 1em;
 }
