@@ -1,5 +1,5 @@
 h1 {
-    font-size: initial;
+    font-size: 1em;
     color: coral;
 }
 
@@ -7,4 +7,11 @@ h1 {
     font-size: 4em;
     font-weight: bold;
     padding: 0.5em 1em;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(2em);
 }
