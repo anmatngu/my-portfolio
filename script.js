@@ -1,2 +1,2 @@
-let name = prompt("Name: ", '');
-alert( name );
+let nameInput = prompt("Name: ", '');
+alert( nameInput );
